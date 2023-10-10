@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "nx serve kritb-blog",
+    "build": "nx run-many -t build --all",
     "serve:ui": "nx run ui:storybook",
     "lint:all": "nx run-many -t lint --all",
     "test:all": "nx run-many -t test --all",
@@ -71,4 +72,3 @@
     "vitest": "~0.32.0"
   }
 }
-
