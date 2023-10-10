@@ -3,7 +3,7 @@ export interface TypographyProps {}
 
 export function Typography(props: TypographyProps) {
   return (
-    <div className="bg-indigo-500 p-2 font-mono">Hello!</div>
+    <div className="bg-meteorite-500 p-2 font-mono">Hello!</div>
   );
 }
 

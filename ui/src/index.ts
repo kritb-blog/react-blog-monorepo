@@ -1,1 +1,2 @@
-export * from './lib/typography/typography';
+export * from './typography/typography';
+export * from './Button';
