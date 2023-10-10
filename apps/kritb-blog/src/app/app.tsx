@@ -1,14 +1,10 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { Typography } from '@react-blog-monorepo/ui';
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { Button, ButtonVariants } from '@react-blog-monorepo/ui';
 
 export function App() {
   return (
-    <div>
-      <Typography />
-      <NxWelcome title="kritb-blog" />
+    <div className="p-4">
+      <Button variant={ButtonVariants.Outlined}>Test Button</Button>
+      <Button variant={ButtonVariants.Solid}>Test Button</Button>
     </div>
   );
 }

@@ -1,2 +1,4 @@
-export * from './lib/typography/typography';
-export * from './lib/ui';
+import './styles.scss';
+
+export * from './typography/typography';
+export * from './Button';
